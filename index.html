@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div id="words">
+
+    </div>
+
+    <div id="controlWrapper">
+        <div id="controls">
+            <label for="speed">Speed:</label>
+            <label for="speed" id="speedDisplay"></label>
+            <input type="range" name="speed" min="25" max="500" step="25" value="100" id="speedControl">
+            <label for="amount">Amount:</label>
+            <input type="number" name="amount" min="0" max="300" value="200" id="amountControl">
+            <label for="text">Text:</label>
+            <input type="text" name="text" value="placeholder" id="textControl">
+            <label for="color1">Color 1:</label>
+            <input type="color" name="color1" value="#ffffff" id="color1" class="color">
+            <label for="color2">color 2:</label>
+            <input type="color" name="color2" value="#ffffa3" id="color2" class="color">
+            <label for="color3">color 3:</label>
+            <input type="color" name="color3" value="#e0e05f" id="color3" class="color">
+            <label for="color4">color 4:</label>
+            <input type="color" name="color4" value="#bebe58" id="color4" class="color">
+            <label for="color5">color 5:</label>
+            <input type="color" name="color5" value="#a0a042" id="color5" class="color">
+            <label for="background">background:</label>
+            <input type="color" name="background" value="#000000" id="backgroundControl">
+            <label for="blur">Motion blur:</label>
+            <label for="blur" id="blurDisplay"></label>
+            <input type="range" name="blur" min="0" max="3000" step="100" value="0" id="blurControl">
+            <label for="mode">Mode:</label>
+            <select name="mode" id="modeControl">
+                <option value="random">random</option>
+                <option value="linear">linear</option>
+                <option value="fade">fade</option>
+            </select>
+        </div>
+        <button id="menu">menu</button>
+    </div>
+
+
+    <script src="sampleText.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>

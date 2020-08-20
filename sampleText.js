@@ -1,0 +1,1 @@
+let sampleText = ["LOVE", "1001", "Download RAM", "Loading..", "Beep", "sudo", "■■■■"]
